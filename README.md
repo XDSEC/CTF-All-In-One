@@ -1,84 +1,75 @@
-# CTF-All-In-One
+# CTF-All-In-One 《CTF 竞赛入门指南》
 
-- [一、基础知识篇](doc/1_basic.md)
-  - [1.1 CTF 简介](doc/1.1_ctf.md)
-  - [1.2 学习方法](doc/1.2_how_to_learn.md)
-  - [1.3 Linux 基础](doc/1.3_linux_basic.md)
-  - [1.4 Web 安全基础](doc/1.4_web_basic.md)
-  - [1.5 逆向工程基础](doc/1.5_reverse_basic.md)
-    - [1.5.1 C 语言基础](doc/1.5.1_c_basic.md)
-    - [1.5.2 x86/x86-64 汇编基础](doc/1.5.2_x86&x64.md)
-    - [1.5.3 Linux ELF](doc/1.5.3_elf.md)
-    - [1.5.4 Windows PE](doc/1.5.4_pe.md)
-    - [1.5.5 静态链接](doc/1.5.5_static_link.md)
-    - [1.5.6 动态链接](doc/1.5.6_dynamic_link.md)
-    - [1.5.7 内存管理](doc/1.5.7_memory.md)
-    - [1.5.8 glibc malloc](doc/1.5.8_glibc_malloc.md)
-  - [1.6 密码学基础](doc/1.6_crypto_basic.md)
-  - [1.7 Android 安全基础](doc/1.7_android_basic.md)
-    - [1.7.1 Android 环境搭建](doc/1.7.1_android_env.md)
-    - [1.7.2 Dalvik 指令集](doc/1.7.2_dalvik.md)
-    - [1.7.3 ARM 汇编基础](doc/1.7.3_arm.md)
-    - [1.7.4 Android 常用工具](doc/1.7.4_android_tools.md)
+## 号外号外！
 
-- [二、工具篇](doc/2_tools.md)
-  - [2.1 VM](doc/2.1_vm.md)
-  - [2.2 gdb/peda](doc/2.2_gdb&peda.md)
-  - [2.3 ollydbg](doc/2.3_ollydbg.md)
-  - [2.4 windbg](doc/2.4_windbg.md)
-  - [2.5 radare2](doc/2.5_radare2.md)
-  - [2.6 IDA Pro](doc/2.6_idapro.md)
-  - [2.7 pwntools](doc/2.7_pwntools.md)
-  - [2.8 JEB](doc/2.8_jeb.md)
-  - [2.9 metasploit](doc/2.9_metasploit.md)
-  - [2.10 binwalk](doc/2.10_binwalk.md)
-  - [2.11 Burp Suite](doc/2.11_burpsuite.md)
+感谢电子工业出版社博文观点的鼓励，我们有意将该项目成书出版，初定的目录和样章如下所示，欢迎大家提意见～
 
-- [三、分类专题篇](doc/3_topics.md)
-  - [3.1 Reverse](doc/3.1_reverse.md)
-  - [3.2 Crypto](doc/3.2_crypto.md)
-  - [3.3 Pwn](doc/3.3_pwn.md)
-    - [3.3.1 格式化字符串漏洞](doc/3.3.1_format_string.md)
-    - [3.3.2 整数溢出](doc/3.3.2_integer_overflow.md)
-    - [3.3.3 栈溢出](doc/3.3.3_stack_overflow.md)
-    - [3.3.4 返回导向编程（ROP）](doc/3.3.4_rop.md)
-    - [3.3.5 堆溢出](doc/3.3.5_heap_overflow.md)
-  - [3.4 Web](doc/3.4_web.md)
-  - [3.5 Misc](doc/3.5_misc.md)
-  - [3.6 Mobile](doc/3.6_mobile.md)
+目录：[目录](catalog.pdf)
 
-- [四、技巧篇](doc/4_tips.md)
-  - [4.1 AWD模式](doc/4.1_AWD.md)
-  - [4.2 Linux 命令行技巧](doc/4.2_Linux_terminal_tips.md)
-  - [4.3 GCC 堆栈保护技术](doc/4.3_gcc.md)
-  - [4.4 使用 DynELF 泄露函数地址](doc/4.4_dynelf.md)
-  - [4.5 Z3 约束求解器](doc/4.5_z3.md)
-  - [4.6 zio](doc/4.6_zio.md)
+样章：[样章1](demo1-pwn.pdf) [样章2](demo2-angr.pdf)
 
-- [五、高级篇](doc/5_advanced.md)
-  - [5.1 Fuzz 测试](doc/5.1_fuzz.md)
-  - [5.2 Pin 动态二进制插桩](doc/5.2_pin.md)
-  - [5.3 angr 二进制自动化分析](doc/5.3_angr.md)
-  - [5.4 反调试技术](doc/5.4_antidbg.md)
-  - [5.5 符号执行](doc/5.5_symbolic.md)
-  - [5.6 LLVM](doc/5.6_llvm.md)
-  - [5.7 Capstone/Keystone](doc/5.7_cap-keystone.md)
+下方为西电信安协会(XDSEC)及L-team官方公众号，专注于技术分享与进步。本书后续的随书材料等也会放到该公众号上，欢迎大家关注～
 
-- [六、题解篇](doc/6_writeup.md)
+![](https://github.com/firmianay/CTF-All-In-One/blob/master/xdsec.png)
 
-- [七、附录](doc/7_appendix.md)
-  - [7.1 更多 Linux 工具](doc/7.1_Linuxtools.md)
-  - [7.2 更多 Windows 工具](doc/7.2_wintools.md)
-  - [7.3 更多资源](doc/7.3_books&blogs.md)
-  - [7.4 习题 write-up](doc/7.4_writeup.md)
-  - [7.5 Linux x86-64 系统调用表](doc/7.5_syscall.md)
-  - [7.6 PPT](doc/7.6_ppt.md)
-
-
-合作和贡献
 ---
-请查看 [CONTRIBUTION.md](CONTRIBUTION.md)
 
-LICENSE
----
+[![Build Status](https://travis-ci.org/firmianay/CTF-All-In-One.svg?branch=master)](https://travis-ci.org/firmianay/CTF-All-In-One)
+
+*——“与其相信谣言，不如一直学习。”*
+
+GitHub 地址：<https://github.com/firmianay/CTF-All-In-One>
+
+GitBook 地址：<https://www.gitbook.com/book/firmianay/ctf-all-in-one/details>
+
+PDF/Mobi/ePub 文件下载地址：
+
+- （推荐）<https://www.gitbook.com/download/pdf/book/firmianay/ctf-all-in-one>
+- （不推荐）<https://github.com/firmianay/CTF-All-In-One/releases>
+
+## 目录
+
+请查看 [SUMMARY.md](https://github.com/firmianay/CTF-All-In-One/blob/master/SUMMARY.md)
+
+## 合作和贡献
+
+请查看 [CONTRIBUTION.md](https://github.com/firmianay/CTF-All-In-One/blob/master/CONTRIBUTION.md)
+
+## 常见问题
+
+请查看 [FAQ.md](https://github.com/firmianay/CTF-All-In-One/blob/master/FAQ.md)
+
+## 修改记录
+
+请查看 [CHANGELOG](https://github.com/firmianay/CTF-All-In-One/blob/master/CHANGELOG)
+
+## 致谢
+
+请查看 [THANKS](https://github.com/firmianay/CTF-All-In-One/blob/master/THANKS)
+
+## LICENSE
+
 CC BY-SA 4.0
+
+## 捐赠
+
+本项目接受捐赠，形式不限，如：送书，寄明信片，打赏，~~介绍女朋友~~……
+
+邮寄地址：`陕西省西安市西安电子科技大学南校区`，收件人：`杨超`。
+
+打赏二维码如下，金额随意，所得捐款将用于给 Contributors 购买书籍和西瓜，~~可直播~~。
+
+支付宝：![](https://github.com/firmianay/CTF-All-In-One/blob/master/myAlipay.jpg)
+微信(加好友请标注“github”)：![](https://github.com/firmianay/CTF-All-In-One/blob/master/myWechat.jpg)
+
+- 2018-12-04 长点心吧 ¥10
+- 2018-12-17 tjw ¥10
+- 2019-01-27 Yimin Zhang ¥99
+- 2019-02-25 *孟达 ¥100
+- 2019-03-05 *哲超 ¥233
+- 2019-03-23 毁三观大人 ¥888
+- 2019-07-20 *柏琴 ¥20
+- 2019-07-24 小龙 ¥100
+- 2019-08-05 *鹏飞 ¥20
+- 2019-10-02 Gk ¥66.6
+- 2019-10-12 简单 ¥40.96
